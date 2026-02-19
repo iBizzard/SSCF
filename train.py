@@ -30,7 +30,7 @@ from skimage.metrics import peak_signal_noise_ratio as psnr
 import torch
 
 from dataloader3 import *
-from model0815 import *
+from model import *
 
 import random
 # from torch.utils.data import DataLoader
@@ -845,5 +845,6 @@ if __name__ == '__main__':
     parser = parser.parse_args()
     print(parser, flush=True)
     train(parser)
+
 
 
